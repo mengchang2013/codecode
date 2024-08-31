@@ -65,4 +65,4 @@
 
 ## idea修改git commit 模态框为侧边栏标签
 `打开 Settings -> Version Control -> Commit `   
-![idea-git-commit](images/public/idea-git-commit.png)  
+![idea-git-commit](../images/public/idea-git-commit.png)  

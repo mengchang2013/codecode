@@ -137,17 +137,17 @@ export PATH=$MAVEN_HOME/bin:$PATH
 >
 > 注意 [RabbitMQ](https://www.rabbitmq.com/) 看清楚当前 RabbitMQ 依赖于的 relang [对应版本信息](https://www.rabbitmq.com/which-erlang.html) 。
 
-![image-20211214214253983](../../document/images/public/image-20211214214253983.png)
+![image-20211214214253983](../images/public/image-20211214214253983.png)
 
-![image-20211214214448037](../../document/images/public/image-20211214214448037.png)
+![image-20211214214448037](../images/public/image-20211214214448037.png)
 
-![image-20211214214642865](../../document/images/public/image-20211214214642865.png)
+![image-20211214214642865](../images/public/image-20211214214642865.png)
 
-![image-20211214215101156](../../document/images/public/image-20211214215101156.png)
+![image-20211214215101156](../images/public/image-20211214215101156.png)
 
 <u>推荐安装方式:**YUM库安装**，去掉了一些运行RabbitMQ不需要的Erlang模块和依赖项</u>
 
-![image-20211219011132132](../../document/images/public/image-20211219011132132.png)
+![image-20211219011132132](../images/public/image-20211219011132132.png)
 
 ### 安装：
 
@@ -937,7 +937,7 @@ npm config set registry http://registry.npm.taobao.org
 >   cd /usr/local/elasticsearch-head/    
 >   vim ./Gruntfile.js
 
-![Gruntfile.js](../../document/images/public/es修改配置Gruntfile.png)
+![Gruntfile.js](../images/public/es修改配置Gruntfile.png)
 
 3. 修改elasticsearch-head默认连接地址
 > cd /usr/local/elasticsearch-head/_site/  
@@ -945,7 +945,7 @@ npm config set registry http://registry.npm.taobao.org
 
 搜索 “/this.base_uri” 修改为  
 ```this.base_uri = this.config.base_uri || this.prefs.get("app-base_uri") || "http://es`s IP:9200"; ```
-![app.js](../../document/images/public/es-head文件app.png)
+![app.js](../images/public/es-head文件app.png)
 
 4. 修改elasticsearch服务配置文件允许跨域（在elasticsearch.yml文件中添加）
 ```shell

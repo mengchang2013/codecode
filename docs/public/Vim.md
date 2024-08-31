@@ -1,5 +1,5 @@
 # Vim
-![vim模式切换图](../../document/images/public/vim模式切换图.png)
+![vim模式切换图](../images/public/vim模式切换图.png)
 ### vim 命令
 ```shell
 i #光标前插入  

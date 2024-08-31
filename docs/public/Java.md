@@ -17,7 +17,7 @@
 ```
 
 ## Spring事务失效场景
-![图片](../../document/images/public/事务失效.img)
+![图片](../images/public/事务失效.img)
 
 ### 1、访问权限问题
 
