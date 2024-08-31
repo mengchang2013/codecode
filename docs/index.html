@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodeCoding</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- 默认主题 -->
+    <link rel="stylesheet" href="css/vue.css">
+</head>
+
+<body>
+<div id="app">Loading...</div>
+
+<script>
+    // 离线支持
+ /*   if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
+    }*/
+
+    window.$docsify = {
+        name: "CodeCoding",
+        repo: 'https://gitee.com/mengchang/code',
+        loadSidebar: true, //侧边目录栏，默认:_sidebar.md,可自定义文件
+        subMaxLevel: 3, //目录显示的标题层级
+        coverpage: false, //封面,_coverpage.md
+        homepage: 'docs/public/Idea.md', //自定义首页文件加载路径
+        auto2top: true, //切换页面后是否自动跳转到页面顶部
+        maxLevel: 4, //最大支持渲染的标题层级
+
+        search: {
+            maxAge: 1800000, // 过期时间，单位毫秒，默认一天
+            paths: 'auto',
+            placeholder: '搜索',
+            noData: '找不到结果',
+            depth: 1,
+        },
+
+    };
+</script>
+<!-- docsify的js依赖 -->
+<script src="js/docsify.min.js"></script>
+<!--Java代码高亮-->
+<script src="js/prism-java.min.js"></script>
+<script src="js/prism-markdown.min.js"></script>
+<script src="js/prism-bash.min.js"></script>
+<script src="js/prism-yaml.min.js"></script>
+<!-- 复制到剪贴板 -->
+<script src="js/docsify-copy-code.min.js"></script>
+<!-- 全文搜索 -->
+<script src="js/search.min.js"></script>
+<script src="js/emoji.min.js"></script>
+<!-- 图片缩放 -->
+<script src="js/zoom-image.min.js"></script>
+
+</body>
+
+</html>
